@@ -1,0 +1,101 @@
+
+
+.row.no-gutter {
+    margin-left: 0;
+    margin-right: 0;
+   
+  }
+  .row.no-gutter [class*='col-']:not(:first-child),
+  .row.no-gutter [class*='col-']:not(:last-child) {
+    padding-right: 0;
+    padding-left: 0;
+  } 
+  .box1
+  {
+  width: 160px;
+  height: 50px;
+  border-radius: 10px;
+  z-index: 2;
+ 
+  }
+ 
+#tempdisp{
+  text-align: center;
+  margin: auto;
+   border: solid black 2px;
+   background:orange; 
+   height:50px;
+   width:160px; 
+
+
+}
+  .box2
+  {
+  width: 90px;
+  height: 50px;
+  border-radius: 10px;
+  z-index: 2;
+  }
+
+  .box3
+  {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  z-index: 2;
+
+  }
+  .blankspace
+  {
+      background-color: white;
+      height:225px;  
+      
+  }
+ 
+ 
+ .innerdiv1{
+  text-align: center;
+  margin: auto;
+  border: solid black 2px;
+  background:cadetblue; 
+  height:50px;
+  width:160px; 
+ 
+  position: absolute;
+  bottom:120px;
+   left:0;
+   right:0;
+  z-index: 1;
+
+ }
+ .innerdiv2{
+   text-align: center;
+  margin: auto;
+  border: solid black 2px;
+  background:plum; 
+  height:50px;
+  width:160px; 
+  position: absolute;
+  top: 0;
+ left:0;
+ right:0;
+  bottom: 0;
+  z-index: 1;
+
+ }
+ .innerdiv3{
+  text-align: center;
+  margin: auto;
+  border: solid black 2px;
+  background:palegreen; 
+  height:50px;
+  width:160px; 
+  position: absolute;
+  top: 100px;
+  right: 0;
+  bottom: 3px;
+  left: 0;
+  z-index: 1;
+
+ }
+
